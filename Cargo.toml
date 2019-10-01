@@ -1,0 +1,19 @@
+[package]
+name = "serde-strings"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/SOF3/serde-strings.git"
+homepage = "https://github.com/SOF3/serde-strings"
+description = "Serde wrapper for FromStr/Display implementors"
+
+[dependencies]
+serde = "1.0"
+
+[dev-dependencies]
+serde_derive = "1.0"
+serde_json = "1.0"
+
+[badges]
+travis-ci = {repository = "SOF3/serde-strings"}
